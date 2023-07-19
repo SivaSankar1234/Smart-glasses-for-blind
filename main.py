@@ -10,7 +10,7 @@ os.system('espeak "()"'.format('hey'))
 pytesseract.pytesseract.tesseract_cmd= r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 img_cv = cv2.imread('C:/Users/Siva Sankar/PycharmProjects/projectphase2/imgs/rest.jpg')
 
-previous = "unkno"
+previous = "unknown"
 
 video_capture = cv2.VideoCapture(0)
 
